@@ -1,11 +1,19 @@
-## My Project
+## Create a SageMaker Pipeline utilising a custom callback step
 
-TODO: Fill this README out!
+This repository provides a demonstration of how to use the 
+[Callback Step](https://docs.aws.amazon.com/sagemaker/latest/dg/build-and-manage-steps.html#step-type-callback) 
+of SageMaker Pipelines into your own pipelines to easily integrate virtually any other AWS service. 
+The Particular example used here is to use this step to call a Lambda function that will read and return 
+the latest model from a model registry to then perform a batch transformation. 
 
-Be sure to:
+The solution that this repository implements can be seen below:
 
-* Change the title in this README
-* Edit your repository description on GitHub
+![Architecture of Solution](images/SM Pipelines callback and batch transform.png?)
+
+## Get started
+
+Open the notebook [batch_transform_with_callback](batch_transform_with_callback.ipynb)
+and follow the instructions from there. 
 
 ## Security
 
