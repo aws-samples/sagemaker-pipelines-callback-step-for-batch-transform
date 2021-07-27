@@ -8,7 +8,7 @@ the latest model from a model registry to then perform a batch transformation.
 
 The solution that this repository implements can be seen below:
 
-![Architecture of Solution](images/SM Pipelines callback and batch transform.png?)
+![Architecture of Solution](images/SM-Pipelines-callback-and-batch-transform.png)
 
 ## Get started
 
